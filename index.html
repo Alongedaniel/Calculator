@@ -12,32 +12,55 @@
 <body>
     <main class="calculator-container">
         <div>
-            <input class="calculator-input" type="text">
+            <input class="calculator-input" type="text" placeholder="0">
         </div>
         <div class="calculator-keys">
-            <div class="circle top-row">CL</div>
-            <div class="circle top-row">+/-</div>
-            <div class="circle top-row">%</div>
-            <div class="circle symbols">/</div>
-            <div class="circle numbers">7</div>
-            <div class="circle numbers">8</div>
-            <div class="circle numbers">9</div>
-            <div class="circle symbols">x</div>
-            <div class="circle numbers">4</div>
-            <div class="circle numbers">5</div>
-            <div class="circle numbers">6</div>
-            <div class="circle symbols">-</div>
-            <div class="circle numbers">3</div>
-            <div class="circle numbers">2</div>
-            <div class="circle numbers">1</div>
-            <div class="circle symbols">+</div>
-            <div class="circle numbers zero">0</div>
-            <div class="circle numbers">.</div>
-            <div class="circle numbers">@</div>
-            <div class="circle equal">=</div>
+            <button onclick="clear()" class="circle top-row">CL</button>
+            <button onclick="del()" class="circle top-row">DEL</button>
+            <button onclick="display('%')" class="circle top-row">%</button>
+            <button onclick="display('/')" class="circle symbols">/</button>
+            <button onclick="display(7)" class="circle numbers">7</button>
+            <button onclick="display(8)" class="circle numbers">8</button>
+            <button onclick="display(9)" class="circle numbers">9</button>
+            <button onclick="display('*')" class="circle symbols">*</button>
+            <button onclick="display(4)" class="circle numbers">4</button>
+            <button onclick="display(5)" class="circle numbers">5</button>
+            <button onclick="display(6)" class="circle numbers">6</button>
+            <button onclick="display('-')" class="circle symbols">-</button>
+            <button onclick="display(3)" class="circle numbers">3</button>
+            <button onclick="display(2)" class="circle numbers">2</button>
+            <button onclick="display('1')" class="circle numbers">1</button>
+            <button onclick="display('+')" class="circle symbols">+</button>
+            <button onclick="display(0)" class="circle numbers zero">0</button>
+            <button onclick="display('.')" class="circle numbers">.</button>
+            <button onclick="display('+/-')" class="circle numbers">+/-</button>
+            <button onclick="calculate()" class="circle equal">=</button>
         </div>
     </main>
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
+
+<!-- <div class="calculator-keys">
+    <button class="circle top-row">CL</button>
+    <button class="circle top-row">+/-</button>
+    <button class="circle top-row">%</button>
+    <button class="circle symbols">/</button>
+    <button class="circle numbers">7</button>
+    <button class="circle numbers">8</button>
+    <button class="circle numbers">9</button>
+    <button class="circle symbols">x</button>
+    <button class="circle numbers">4</button>
+    <button class="circle numbers">5</button>
+    <button class="circle numbers">6</button>
+    <button class="circle symbols">-</button>
+    <button class="circle numbers">3</button>
+    <button class="circle numbers">2</button>
+    <button class="circle numbers">1</button>
+    <button class="circle symbols">+</button>
+    <button class="circle numbers zero">0</button>
+    <button class="circle numbers">.</button>
+    <button class="circle numbers">@</button>
+    <button class="circle equal">=</button>
+</div> -->
 
 </html>
