@@ -73,6 +73,10 @@ body {
       font-size: 40px;
       font-weight: 600;
       color: #eeeeee;
+      overflow: hidden;
     }
+  }
+  .calculator-input::placeholder {
+    color: #fff;
   }
 }

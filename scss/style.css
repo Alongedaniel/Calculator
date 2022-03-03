@@ -91,5 +91,22 @@ body .calculator-container .calculator-input {
   font-size: 40px;
   font-weight: 600;
   color: #eeeeee;
+  overflow: hidden;
+}
+
+body .calculator-input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+body .calculator-input:-ms-input-placeholder {
+  color: #fff;
+}
+
+body .calculator-input::-ms-input-placeholder {
+  color: #fff;
+}
+
+body .calculator-input::placeholder {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
